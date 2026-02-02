@@ -1,0 +1,15 @@
+# Python 虛擬環境
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# 測試報告數據
+allure-results/
+allure-report/
+*.png
+
+# 敏感資訊 (非常重要！)
+.env
+config.json
+xpath.json
