@@ -1,0 +1,4 @@
+{
+    "close_button": "//button[contains(@class, 'ScCoreButton-sc-ocjdkq-0 daJa-df')]",
+    "search_button": "(//div[contains(@class, 'gmMnJC')])[2]"
+}
