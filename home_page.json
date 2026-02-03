@@ -1,4 +1,0 @@
-{
-    "close_button": "//button[contains(@class, 'kctfFN')]",
-    "search_button": "(//div[contains(@class, 'gmMnJC')])[2]"
-}

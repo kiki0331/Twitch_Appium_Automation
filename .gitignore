@@ -1,15 +1,13 @@
-# Python 虛擬環境
-venv/
 .venv/
-__pycache__/
-*.pyc
+venv/
+env/
 
-# 測試報告數據
+__pycache__/
+*.py[cod]
+
 allure-results/
 allure-report/
 *.png
+*.log
 
-# 敏感資訊 (非常重要！)
-.env
-config.json
-xpath.json
+.DS_Store
