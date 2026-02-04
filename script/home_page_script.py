@@ -1,5 +1,6 @@
 import os
 import json
+import allure
 from core_framework.base_page import BasePage
 
 class HomePageScript(BasePage):
@@ -10,9 +11,11 @@ class HomePageScript(BasePage):
         with open(json_path, "r", encoding="utf-8") as f:
             self.data = json.load(f)
 
+    @allure.step("Go to home page by URL")
     def go_to_home_page_by_url(self):
         self.driver.get("https://m.twitch.tv/")
 
+    @allure.step("Close popup and click search")
     def close_popup_and_click_search(self):
         self.click_element(self.data["close_button"])
         self.click_element(self.data["search_button"])
